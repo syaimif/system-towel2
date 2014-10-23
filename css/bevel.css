@@ -1,0 +1,89 @@
+#bevel {
+    background: #111;
+    border-color: rgba(0,0,0,0);
+    height: 100%;
+    width: 250px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    right: -249px;
+    top: 0px;
+    position:absolute;
+    z-index: 4;
+    -webkit-transition: all 200ms ease-in-out;
+}
+#bevel:hover {
+	right: 0px;
+}
+#sosmed {
+	position: relative;
+	top: 42px;
+	width:auto;
+	min-height:170px;
+	margin: 5px;
+}
+#sosmed a {
+	display:block;
+	margin: 2px;
+	padding: 8px;
+	background: #444;
+	color: #ddd;
+	font-size: 14px;
+	font-family: 'Arimo Regular';
+	text-decoration: none;
+	cursor:pointer;
+}
+#sosmed img {
+	width:20px;
+	height:20px;
+	padding-right: 8px;
+	margin-top: -2px;
+	margin-bottom: 5px;
+	float: left;
+}
+#time {
+	position: relative;
+	color: rgba(255,255,255,0.8);
+	padding-top: 40px;
+    cursor: default;
+    text-align: center;
+}
+
+#clock-time {
+	font-family: 'TrendexLightSSi.ttf';
+	display: block;
+	font-size: 60px;
+	text-shadow: 0 2px 2px #000;
+}
+#clock-date {
+	font-size: 15px;
+	font-family: 'Aurulent Sans';
+	text-shadow: 0 2px 2px #000;
+}
+/***********************************
+ * Fonts Collections *
+ * *********************************/
+@font-face {
+    font-family: 'Arimo Bold';
+    src: url(../fonts/Arimo-Bold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Arimo Regular';
+    src: url(../fonts/Arimo-Regular.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'TrendexLightSSi.ttf';
+    src: url(../fonts/TrendexLightSSi.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'OpenSans Light';
+    src: url(../fonts/OpenSans-Light.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Aurulent Sans';
+    src: url(../fonts/AurulentSans-Regular.otf);
+    font-weight: 600;
+}

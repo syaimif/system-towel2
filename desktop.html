@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<link rel="stylesheet" href="css/desktop.css" />
+<link rel="stylesheet" href="css/bevel.css" />
+
+<script type="text/javascript" src="js/jq.js"></script>
+<script type="text/javascript" src="js/xml2json.js"></script>
+<script type="text/javascript" src="js/xml-background.js"></script>
+<script type="text/javascript" src="js/desktop.js"></script>
+<script type="text/javascript" src="js/time.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bevel.js"></script>
+
+</head>
+<body>
+  <div id="overlay"></div>
+  <div id="bg"></div>
+  <div id="base">
+    <!-- h1 id="debug"></h1 -->
+	<div id="launcher"></div>
+	<div id="bevel">
+		<div id="sosmed">
+			<a href="#" value="BlankOn Linux" onclick="RunBlankOnLinux();"/><span>BlankOn Linux</span><img src="./img/blankon.svg"></a>
+			<a href="#" value="Dev BlankOn Linux" onclick="RunDevBlankOnLinux();"/><span>Wiki BlankOn Linux</span><img src="./img/blankon.svg"></a>
+			<a href="#" value="Facebook" onclick="RunFacebook();"/><span>Facebook</span><img src="./img/facebook.svg"></a>
+			<a href="#" value="Twitter" onclick="RunTwitter();"/><span>Twitter</span><img src="./img/twitter.svg"></a>
+		</div>
+		<div id="time" class="clock"><span id="clock-time">00:00</span><span id="clock-date">16 Juli 2013</span>
+		</div>
+	</div>
+  </div>
+</body>
+</html>
